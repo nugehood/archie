@@ -1,10 +1,10 @@
 /* Markdown */
 :root{
---maincolor: black;
---bordercl:grey;
+--maincolor: yellow;
+--bordercl:rebeccapurple;
 --callouctcolor:dodgerblue;
 --hovercolor:navy;
---darkMaincolor: white;
+--darkMaincolor: #50fa7b;
 }
 html {
   color: #232333;
@@ -67,8 +67,7 @@ ul > li::before {
 
 /* Images */
 img {
-
-  border: 3px solid black;
+  border: 3px solid #ececec;
   max-width: 100%;
 }
 
