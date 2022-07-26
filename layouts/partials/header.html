@@ -1,4 +1,5 @@
 <head>
+	
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	{{- $title := ( .Title ) -}}
@@ -8,7 +9,6 @@
 	{{- else -}}
 	<title>{{ $title }} - {{ $siteTitle }}</title>
 	{{- end -}}
-
 	{{- if isset .Site.Params "favicon" -}}
 	<link rel="icon" type="image/png" href={{ .Site.Params.favicon }} />
 	{{- end -}}
