@@ -3,13 +3,13 @@
 --maincolor: black;
 --bordercl:grey;
 --callouctcolor:dodgerblue;
---hovercolor:navy;
+--hovercolor:black;
 --darkMaincolor: white;
 }
 html {
   color: #232333;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 15px;
+  font-family: 'lexia dama';
+  font-size: 18px;
   line-height: 1.6em;
 }
 body{
@@ -20,13 +20,28 @@ body{
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+h1{
+  font-size: 30px;
+  line-height: 1.8;
+  margin-top: 2em;
+}
+
+h2{
+  font-size: 25px;
+  margin-top: 2em;
+}
+
+
+
+
+
 ::selection {
   background: var(--maincolor);
   color: #fff;
 }
 
 p {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'andika';
   line-height: 1.5;
 }
 
@@ -38,7 +53,7 @@ hr {
 
 blockquote {
   border-left: 3px solid var(--bordercl);
-  color: #737373;
+  color: black;
   margin: 0;
   padding-left: 1em;
 }
@@ -144,17 +159,14 @@ header {
 header .main {
   font-size: 1.5rem;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-size: 1.2rem;
-  margin-top: 2em;
-}
+
 
 h1::before { color: var(--maincolor); content: '# '; }
 h2::before { color: var(--maincolor); content: '## '; }
 h3::before { color: var(--maincolor); content: '### '; }
 h4::before { color: var(--maincolor); content: '#### '; }
 h5::before { color: var(--maincolor); content: '##### '; }
-h6::before { color: var(--maincolor); content: '###### '; }
+h6::before { color: var(--maincolor); content: '###### '; } 
 
 .meta {
   color: #999;
