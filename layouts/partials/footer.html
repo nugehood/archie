@@ -4,11 +4,13 @@
     <a class="soc" href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
     <a class="border"></a>
     {{- end -}}
+    
   </div>
   <div class="footer-info">
     {{ dateFormat "2006" now }} ©<a href="/about">{{ with .Site.Copyright }} {{ . }} </a>| {{ end }} <a
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    </div>
+  
 </footer>
 {{ if not .Site.IsServer }}
 {{ template "_internal/google_analytics_async.html" . }}
@@ -17,5 +19,9 @@
 {{- if (isset .Site.Params "social") -}}
 <script>
   feather.replace()
+  
 </script>
+
+<a href="https://www.buymeacoffee.com/nugehood">
+  <img class="coffee" src="https://img.buymeacoffee.com/button-api/?text=Buy me a tea&emoji=🍵&slug=nugehood&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" width="200px" /></a>
 {{- end -}}
