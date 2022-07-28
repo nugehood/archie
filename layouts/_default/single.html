@@ -38,6 +38,27 @@
 			{{ end }}
 		</div>
 	</article>
+	
+	{{- if .Params.comment }}
+	<div class="comment">
+		<h1>Share your thoughts</h1>
+		<script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+		<link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
+		<div id="comment-section"></div>
+		<script>
+		initComments({
+		node: document.getElementById("comment-section"),
+		defaultHomeserverUrl: "https://matrix.cactus.chat:8448",
+		serverName: "cactus.chat",
+		siteName: "<anugerah-garden>",
+		commentSectionId: "{{ index .Params 0 }}"
+		})
+</script>
+
+	</div>
+	{{end}}
+
 	{{ partial "share-buttons.html" . }}
+
 </main>
 {{ end }}
