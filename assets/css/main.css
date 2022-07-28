@@ -203,14 +203,13 @@ footer {
 }
 
 time {
-  color: grey;
+  color: black;
 }
 
 /* Posts */
 article .title {
   margin-bottom: 1em;
 }
-
 
 /* Callout */
 .callout {
@@ -333,11 +332,15 @@ color: whitesmoke ;
 table {
   border-spacing: 0;
   border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 table th{
   padding: 6px 13px;
   border: 1px solid #dfe2e5;
+  background-color: #000000;
+  color: white;
   font-size: large;
 }
 

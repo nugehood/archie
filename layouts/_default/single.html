@@ -6,6 +6,13 @@
 			<div class="meta">Posted on {{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</div>
 			{{ partial "breadcrumbs.html" . }}
 		</div>
+		
+		{{- if .Params.toc }}
+				<h1>Table Of Contents</h1>
+				{{ .TableOfContents }}
+		{{end}}
+		
+
 		{{ if isset .Params "tldr" }}
 		<div class="tldr">
 			<strong>tl;dr:</strong>
