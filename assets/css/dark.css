@@ -20,7 +20,7 @@ hr {
 }
 code {
   background-color: lightblue;
-  color: black;
+  color: white;
   text-decoration: bold;
   padding: 0.1em 0.2em;
 }
@@ -32,6 +32,7 @@ pre {
 }
 blockquote {
   border-color: white;
+  color: white;
 }
 
 h1,
@@ -76,11 +77,14 @@ a:hover {
   color: black;
 }
 
+time{
+  color: white;
+}
 .site-description a {
   color: #ddd;
 }
 .site-description a:hover {
-  color: black;
+  color: white;
 }
 
 img {
