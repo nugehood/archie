@@ -161,12 +161,12 @@ header .main {
   font-size: 1.5rem;
 }
 
-h1::before { color: var(--maincolor); content: '# '; }
-h2::before { color: var(--maincolor); content: '## '; }
-h3::before { color: var(--maincolor); content: '### '; }
-h4::before { color: var(--maincolor); content: '#### '; }
-h5::before { color: var(--maincolor); content: '##### '; }
-h6::before { color: var(--maincolor); content: '###### '; } 
+h1::before { color: var(--maincolor); content: '🌲 '; }
+h2::before { color: var(--maincolor); content: '🌱🌱 '; }
+h3::before { color: var(--maincolor); content: '🌱🌱🌱 '; }
+h4::before { color: var(--maincolor); content: '🌱🌱🌱🌱 '; }
+h5::before { color: var(--maincolor); content: '🌱🌱🌱🌱🌱 '; }
+h6::before { color: var(--maincolor); content: '🌱🌱🌱🌱🌱🌱 '; } 
 
 img.coffee{
   border: none;
@@ -198,6 +198,10 @@ footer {
 }
 .footer-info {
   padding: var(--footer-padding);
+}
+
+.buy{
+  background-color: yellow;
 }
 
 /* Common */

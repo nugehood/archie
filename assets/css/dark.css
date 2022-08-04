@@ -77,6 +77,11 @@ a:hover {
   color: black;
 }
 
+.buy{
+  background-color: yellow;
+  color: black;
+}
+
 time{
   color: white;
 }
