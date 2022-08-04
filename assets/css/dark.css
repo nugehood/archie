@@ -35,38 +35,12 @@ blockquote {
   color: white;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: white;
-}
-h1::before {
-  color: var(--darkMaincolor);
-  content: "# ";
-}
-h2::before {
-  color: var(--darkMaincolor);
-  content: "## ";
-}
-h3::before {
-  color: var(--darkMaincolor);
-  content: "### ";
-}
-h4::before {
-  color: var(--darkMaincolor);
-  content: "#### ";
-}
-h5::before {
-  color: var(--darkMaincolor);
-  content: "##### ";
-}
-h6::before {
-  color: var(--darkMaincolor);
-  content: "###### ";
-}
+h1::before { color: var(--maincolor); content: '🌲 '; }
+h2::before { color: var(--maincolor); content: '🌱🌱 '; }
+h3::before { color: var(--maincolor); content: '🌱🌱🌱 '; }
+h4::before { color: var(--maincolor); content: '🌱🌱🌱🌱 '; }
+h5::before { color: var(--maincolor); content: '🌱🌱🌱🌱🌱 '; }
+h6::before { color: var(--maincolor); content: '🌱🌱🌱🌱🌱🌱 '; } 
 
 a {
   border-bottom: 3px solid var(--darkMaincolor);

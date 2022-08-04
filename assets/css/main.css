@@ -161,6 +161,7 @@ header .main {
   font-size: 1.5rem;
 }
 
+
 h1::before { color: var(--maincolor); content: '🌲 '; }
 h2::before { color: var(--maincolor); content: '🌱🌱 '; }
 h3::before { color: var(--maincolor); content: '🌱🌱🌱 '; }
