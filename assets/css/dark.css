@@ -2,6 +2,12 @@ body {
   color: white;
   background-color: black;
 }
+h1::before { color: white; content: '◉ '; }
+h2::before { color: white; content: '◎◎ '; }
+h3::before { color: white; content: '⌾⌾⌾ '; }
+h4::before { color: white; content: '⊚⊚⊚⊚ '; }
+h5::before { color: white; content: '◯◯◯◯◯ '; }
+h6::before { color: white; content: '●●●●●● '; } 
 
 ::-moz-selection {
   background: blue;
@@ -35,12 +41,6 @@ blockquote {
   color: white;
 }
 
-h1::before { color: var(--maincolor); content: '◉ '; }
-h2::before { color: var(--maincolor); content: '◎◎ '; }
-h3::before { color: var(--maincolor); content: '⌾⌾⌾ '; }
-h4::before { color: var(--maincolor); content: '⊚⊚⊚⊚ '; }
-h5::before { color: var(--maincolor); content: '◯◯◯◯◯ '; }
-h6::before { color: var(--maincolor); content: '●●●●●● '; } 
 
 a {
   border-bottom: 3px solid var(--darkMaincolor);

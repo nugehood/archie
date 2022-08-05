@@ -14,6 +14,12 @@ body {
   color: #fff;
   text-shadow: none;
 }
+  h1::before { content: '◉ '; }
+  h2::before { color: var(--maincolor); content: '◎◎ '; }
+  h3::before { color: var(--maincolor); content: '⌾⌾⌾ '; }
+  h4::before { color: var(--maincolor); content: '⊚⊚⊚⊚ '; }
+  h5::before { color: var(--maincolor); content: '◯◯◯◯◯ '; }
+  h6::before { color: var(--maincolor); content: '●●●●●● '; } 
 
 hr {
   border-top: 3px dotted blue;
