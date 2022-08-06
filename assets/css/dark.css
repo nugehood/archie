@@ -1,13 +1,16 @@
 body {
-  color: white;
-  background-color: black;
+  color: #ddd;
+  background-color: #151515;
 }
+
+/* Lister
 h1::before { color: white; content: '◉ '; }
 h2::before { color: white; content: '◎◎ '; }
 h3::before { color: white; content: '⌾⌾⌾ '; }
 h4::before { color: white; content: '⊚⊚⊚⊚ '; }
 h5::before { color: white; content: '◯◯◯◯◯ '; }
 h6::before { color: white; content: '●●●●●● '; } 
+*/
 
 ::-moz-selection {
   background: blue;

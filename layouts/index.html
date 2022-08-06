@@ -16,7 +16,17 @@
 				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}
 				{{ range $paginator.Pages }}
 				<section class="list-item">
-					<h1 class="title"><a href="{{ .RelPermalink }}">{{.Title}}</a></h1>
+										{{- range .Params.authors }}
+					{{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+						<figure>
+						<img src="{{ .Params.photo }}" alt=""/>
+						<figcaption>
+							<a href="{{ .Permalink }}">{{ .Params.name }}</a>
+						</figcaption>
+						</figure>
+					{{ end }}
+					{{ end }}
+					<h1 class="title"><a href="{{ .RelPermalink }}" class="dude">{{.Title}}</a> ☜</h1>
 					<time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
 					<br><div class="description">
 						{{ if isset .Params "description" }}
@@ -26,6 +36,7 @@
 						{{ end }}
 					</div>
 					<a class="readmore" href="{{ .RelPermalink }}">Read more ⟶</a>
+					<hr>
 				</section>
 				{{ end }}
 				{{ template "partials/paginator.html" . }}
