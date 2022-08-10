@@ -26,7 +26,7 @@
 						</figure>
 					{{ end }}
 					{{ end }}
-					<h1 class="title"><a href="{{ .RelPermalink }}" class="dude">{{.Title}}</a> ☜</h1>
+					<h1 class="title"><a href="{{ .RelPermalink }}" class="dude">{{.Title}}</a></h1>
 					<time>{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</time>
 					<br><div class="description">
 						{{ if isset .Params "description" }}
