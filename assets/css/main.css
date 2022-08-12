@@ -36,7 +36,6 @@ h1{
 }
 
 
-
 h2{
   font-size: 30px;
   margin-top: 2em;
@@ -45,6 +44,13 @@ h2{
 ::selection {
   background: var(--maincolor);
   color: #fff;
+}
+
+.center_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 
