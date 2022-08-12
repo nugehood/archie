@@ -29,7 +29,7 @@ body{
 }
 
 h1{
-  font-size: 32pt;
+  font-size: 25pt;
   font-family: 'Playfair Display', serif;
   line-height: 1.5em;
   word-wrap: break-word;
@@ -55,7 +55,7 @@ h2{
 }
 
 p {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Playfair Display', serif;
   text-align: justify;
   text-justify: inter-word;
   line-height: 1.5;
