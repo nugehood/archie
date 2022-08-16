@@ -36,3 +36,12 @@
        url('../fonts/ibm-plex-mono-v6-latin-500italic.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/ibm-plex-mono-v6-latin-500italic.svg#IBMPlexMono') format('svg'); /* Legacy iOS */
 }
+
+@font-face {
+  font-family: 'Wolfpack';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Wolfpack'),
+       url('../fonts/Wolfpack.ttf') format('truetype'); /* Safari, Android, iOS */
+      
+}

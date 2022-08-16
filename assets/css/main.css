@@ -60,6 +60,14 @@ h2{
 
 }
 
+.story{
+  font-family: 'Wolfpack', 'Playfair Display';
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 150%;
+  font-size: 21px;
+}
+
 p {
   font-family: 'Playfair Display', serif;
   text-align: justify;
@@ -189,13 +197,6 @@ header {
 header .main {
   font-size: 1.5rem;
 }
-
-
-h2::before { color: black; content: '⌗⌗ '; }
-h3::before { color: black; content: '⌗⌗⌗ '; }
-h4::before { color: black; content: '⌗⌗⌗⌗ '; }
-h5::before { color: black; content: '⌗⌗⌗⌗⌗ '; }
-h6::before { color: black; content: '⌗⌗⌗⌗⌗⌗ '; } 
 
 
 img.coffee{
