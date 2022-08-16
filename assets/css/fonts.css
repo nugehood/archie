@@ -45,3 +45,30 @@
        url('../fonts/Wolfpack.ttf') format('truetype'); /* Safari, Android, iOS */
       
 }
+
+@font-face {
+  font-family: 'Andika-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Andika-Regular'),
+       url('../fonts/Andika-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+      
+}
+
+@font-face {
+  font-family: 'et-book-roman-line-figures';
+  font-style: normal;
+  font-weight: 400;
+  src: local('et-book-roman-line-figures'),
+       url('../fonts/et-book-roman-line-figures.ttf') format('truetype'); /* Safari, Android, iOS */
+      
+}
+
+@font-face {
+  font-family: 'et-book-roman-old-style-figures';
+  font-style: normal;
+  font-weight: 400;
+  src: local('et-book-roman-old-style-figures'),
+       url('../fonts/et-book-roman-old-style-figures.ttf') format('truetype'); /* Safari, Android, iOS */
+      
+}

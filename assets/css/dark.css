@@ -3,11 +3,6 @@ body {
   background-color: #151515;
 }
 
-h2::before { color: white; content: '⌗⌗ '; }
-h3::before { color: white; content: '⌗⌗⌗ '; }
-h4::before { color: white; content: '⌗⌗⌗⌗ '; }
-h5::before { color: white; content: '⌗⌗⌗⌗⌗ '; }
-h6::before { color: white; content: '⌗⌗⌗⌗⌗⌗ '; } 
 
 ::-moz-selection {
   background: blue;

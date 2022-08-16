@@ -1,8 +1,3 @@
-@font-face{
-  font-family: 'Etbembo', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-  src: url(fonts/et-book-roman-line-figures.ttf);
-}
-
 /* Markdown */
 :root{
 --maincolor: black;
@@ -25,12 +20,12 @@ body{
 }
 
 .description{
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'et-book-roman-old-style-figures', serif;
 }
 
 h1{
   font-size: 25pt;
-  font-family: 'Playfair Display', serif;
+  font-family: 'et-book-roman-old-style-figures', serif;
   line-height: 1.5em;
   word-wrap: break-word;
 }
@@ -38,6 +33,7 @@ h1{
 
 h2{
   font-size: 30px;
+  font-family: 'et-book-roman-old-style-figures', serif;
   margin-top: 2em;
 }
 
@@ -61,18 +57,18 @@ h2{
 }
 
 .story{
-  font-family: 'Wolfpack', 'Playfair Display';
+  font-family: 'Wolfpack', sans-serif;
   text-align: justify;
   text-justify: inter-word;
-  line-height: 150%;
-  font-size: 21px;
+  line-height: 200%;
+  font-size: 20px;
 }
 
 p {
-  font-family: 'Playfair Display', serif;
+  font-family: 'et-book-roman-old-style-figures', serif;
   text-align: justify;
   text-justify: inter-word;
-  line-height: 1.5;
+  line-height: 32px;
   font-size: 21px;
 }
 
@@ -107,6 +103,7 @@ a:hover {
 
 ul {
   list-style: none;
+  font-family: 'et-book-roman-old-style-figures', serif;
   padding-left: 2ch;
 }
 ul li {
