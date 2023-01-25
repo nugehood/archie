@@ -24,7 +24,7 @@ body{
 }
 
 h1{
-  font-size: 25pt;
+  font-size: 50pt;
   word-wrap: break-word;
 }
 
@@ -69,7 +69,7 @@ p {
 }
 
 hr {
-  border: 5;
+  border: dotted;
   border-color: black;
   margin: 1em 0;
 }
@@ -86,8 +86,11 @@ a.dude{
   text-decoration: none;
 }
 
+h1::before{
+  content: "● ";
+}
 a {
-  border-bottom: 3px solid var(--maincolor);
+  border-bottom: 2px solid var(--maincolor);
   color: inherit;
   text-decoration: none;
 }

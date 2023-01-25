@@ -1,6 +1,6 @@
 body {
-  color: #ddd;
-  background-color: #151515;
+  color: white;
+  background-color: black;
 }
 
 
@@ -17,7 +17,9 @@ body {
 }
 
 hr {
-  border-top: 3px dotted white;
+  border: dotted;
+  border-color: white;
+  margin: 1em 0;
 }
 code {
   background-color: lightblue;
