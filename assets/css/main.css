@@ -24,8 +24,9 @@ body{
 }
 
 h1{
-  font-size: 50pt;
+  font-size: 5vh;
   word-wrap: break-word;
+  word-break: normal;
 }
 
 
