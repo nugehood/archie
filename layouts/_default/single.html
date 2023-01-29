@@ -7,7 +7,6 @@
 			<div class="meta">Posted on {{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</div>
 			{{ partial "breadcrumbs.html" . }}
 		</div>
-		
 		{{- if .Params.toc }}
 				<h2>Table Of Contents</h2>
 				<hr>

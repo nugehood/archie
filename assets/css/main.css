@@ -62,15 +62,16 @@ h2{
 }
 
 p {
-
+  color: black;
   text-align:  left;
   line-height: 31px;
   font-size: 22px;
 }
 
 hr {
-  background-color: #fff;
-	border-top: 2px dotted black;
+  border: dotted;
+  border-color: black;
+  margin: 1em 0;
 }
 
 blockquote {
