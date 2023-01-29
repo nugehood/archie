@@ -11,21 +11,24 @@
 		{{ if eq .Site.Params.mode "toggle" -}}
          <a id="dark-mode-toggle" onclick="toggleTheme()" href=""></a>
 		<script src="{{ .Site.BaseURL }}js/themetoggle.js">
-			function myFunction() {
-				var x = document.getElementById("myTopnav");
-				if (x.className === "topnav") {
-				  x.className += " responsive";
-				} else {
-				  x.className = "topnav";
-				}
-			  }
+			
 		</script>
 		{{ end }}
 		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
 	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 		☰
 	  </a>
+	  <script>
+		function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+		  x.className += " responsive";
+		} else {
+		  x.className = "topnav";
+		}
+	  }</script>
 	</nav>
+	
 
 	<link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
 	<link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
