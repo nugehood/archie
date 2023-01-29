@@ -8,7 +8,9 @@
   </div>
   <div class="footer-info">
     {{ dateFormat "2006" now }} ©<a href="/about">{{ with .Site.Copyright }} {{ . }} </a>| {{ end }} 
-    <a href="https://www.buymeacoffee.com/nugehood" class="buy"> Buy Me a Tea 🍵?</a> </div>
+    <a href="https://www.buymeacoffee.com/nugehood" class="buy"> Buy Me a Tea 🍵?</a> 
+
+  </div>
 </footer>
 {{ if not .Site.IsServer }}
 {{ template "_internal/google_analytics_async.html" . }}
