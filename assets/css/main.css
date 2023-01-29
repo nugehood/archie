@@ -26,7 +26,6 @@ body{
 h1{
   font-size: 5vh;
   word-wrap: break-word;
-  word-break: normal;
 }
 
 
@@ -71,6 +70,7 @@ p {
 
 hr {
   border: dotted;
+  border-width: 5vh;
   border-color: black;
   margin: 1em 0;
 }
