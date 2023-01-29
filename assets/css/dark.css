@@ -16,6 +16,10 @@ body {
   text-shadow: none;
 }
 
+p{
+  color: white;
+}
+
 hr {
   border: dotted;
   border-color: white;

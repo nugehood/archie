@@ -238,8 +238,8 @@ footer {
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
-    display: inline-block;
-    align-content: space-between;
+    display: inline-flex;
+    flex-wrap: wrap;
   }
 }
 
