@@ -25,6 +25,7 @@ body{
 
 h1{
   font-size: 5vh;
+  line-height: 5vh;
   word-wrap: break-word;
 }
 
